@@ -9,3 +9,7 @@ def factorial(n):
         for i in range(2, n + 1):
             result *= i
         return result
+
+num = int(input("Enter a number: "))
+fact = factorial(num)
+print(f"The factorial of {num} is: {fact}")
